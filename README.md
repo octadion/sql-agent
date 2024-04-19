@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Usage
 ```bash
-python api/app.py
+uvicorn api.app:app --reload
 ```
 Example api:
 1. Using FastApi & Langserve:
